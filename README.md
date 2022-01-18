@@ -1,4 +1,4 @@
-# rick and morty cracter scheme. 
+# Rick and rorty Character scheme. 
 
 Character scheme implementation using the rick and morty api https://rickandmortyapi.com
 
