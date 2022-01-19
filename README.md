@@ -1,6 +1,6 @@
 # Rick and rorty Character scheme. 
 
-Character scheme implementation using the rick and morty api 
+Character scheme implementation using the rick and morty api           
 Live : (https://rickandmortycharacterschema.netlify.app)
 ## Tech stack
 
