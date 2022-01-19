@@ -1,8 +1,7 @@
 # Rick and rorty Character scheme. 
 
 Character scheme implementation using the rick and morty api 
-Live : ****
-
+Live : (https://rickandmortycharacterschema.netlify.app)
 ## Tech stack
 
 - Vue.js + Vite
