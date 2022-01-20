@@ -15,12 +15,8 @@ import Header from './components/Header.vue'
 <nav>
   <Navigation/>
 </nav>
-  <div>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit facilis ipsum aspernatur tempore in maxime, cum
-      deserunt officia modi error eius, dolore molestiae incidunt quam praesentium ut non at autem!
-    </p>
-  </div>
+  <router-view></router-view>
+  
 </template>
 
 <style>

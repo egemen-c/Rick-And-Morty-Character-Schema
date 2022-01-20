@@ -6,10 +6,10 @@
         </div>
         <div class="nav-links">
             <ul>
-                <li><a href="#">ANA SAYFA</a></li>
-                <li><a href="#">HAKKIMIZDA</a></li>
-                <li><a href="#">İLETİŞİM</a></li>
-                <li><a href="#">BLOG</a></li>
+                <li><router-link to="/">Home</router-link></li>
+                <li><router-link to="/Characters">Characters</router-link></li>
+                <li><router-link to="/Locations">Locations</router-link></li>
+                <li><a href="https://github.com/egemen-c" target="_blank">Me</a></li>
             </ul>
         </div>
     </div>
