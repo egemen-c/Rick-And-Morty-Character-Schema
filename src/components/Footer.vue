@@ -22,7 +22,7 @@
         align-items: center;
         padding-left: 5%;
         padding-right: 5%;
-        background: var(--black-800);
+        background: var(--black-900);
         flex-direction: row-reverse;
     }
     .brand { 
@@ -56,7 +56,10 @@
         font-weight: 600;
         letter-spacing: 0.1rem;
         text-decoration: none;
-                
+    }
+    a {
+        border-bottom: 1px solid  var(--teal);
+
     }
     .nav .nav-links ul li a:hover{
         color: var(--teal);

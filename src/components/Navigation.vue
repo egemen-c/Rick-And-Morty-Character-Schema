@@ -56,6 +56,9 @@
         text-decoration: none;
                 
     }
+    a{
+        border-bottom: 1px solid var(--teal);
+    }
     .nav .nav-links ul li a:hover{
         color: var(--teal);
     }
