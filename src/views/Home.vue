@@ -19,7 +19,7 @@
             }
         },
         created(){
-            fetch('https://rickandmortyapi.com/api/character?page=18')
+            fetch('https://rickandmortyapi.com/api/character?page=39')
             .then(response => response.json())
             .then(data => this.chars = data.results);
         },
