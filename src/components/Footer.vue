@@ -24,6 +24,10 @@
         padding-right: 5%;
         background: var(--black-900);
         flex-direction: row-reverse;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
     }
     .brand { 
         display: flex;

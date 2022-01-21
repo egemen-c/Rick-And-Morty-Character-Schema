@@ -1,3 +1,3 @@
 <template>
-    <h1>characters</h1>
+    <h1>characterss</h1>
 </template>
