@@ -6,11 +6,11 @@
                     <img :src="char.image" alt="">
                 </div>
                 <div class="card-body">
-                    <span>name :{{char.name}}</span>
-                    <span>status :{{char.status}}</span>
-                    <span>origin :{{char.origin.name}}</span>
-                    <span>species :{{char.species}}</span>
-                    <span>locations :{{char.location.name}}</span>
+                    <span>name: {{char.name}}</span>
+                    <span>status: {{char.status}}</span>
+                    <span>origin: {{char.origin.name}}</span>
+                    <span>species: {{char.species}}</span>
+                    <span>locations: {{char.location.name}}</span>
                 </div>
             </div>
         </div>
@@ -41,7 +41,6 @@
                 } else {
                     this.$store.dispatch('getMore')
                     this.$store.state.id++
-
                 }
             }
         }
@@ -52,19 +51,23 @@
         height: hidden;
         padding: 5%;
     }
+
     .card-container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 30px;
     }
+
     .card-container .card {
         background: var(--black-900);
         color: var(--grey);
         font: var(-font);
     }
+
     .card .card-head img {
         width: 100%;
     }
+
     .card-body {
         display: flex;
         justify-content: center;
@@ -72,6 +75,7 @@
         flex-wrap: wrap;
         padding: 5%;
     }
+
     .card-body span {
         padding: 5px;
     }
@@ -83,7 +87,8 @@
         align-items: center;
         margin: 25px;
     }
-    .btn button{
+
+    .btn button {
         text-align: center;
         background: var(--teal);
         color: var(--black-900);
@@ -94,8 +99,25 @@
         padding: 10px;
         transition: all 0.3s linear;
     }
-    .btn button:hover{
-       -webkit-box-shadow: 0px 8px 6px 1px rgba(0,0,0,0.59); 
-        box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.59);     
+
+    .btn button:hover {
+        -webkit-box-shadow: 0px 8px 6px 1px rgba(0, 0, 0, 0.59);
+        box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.59);
     }
+
+    @media only screen and (min-width: 320px) and (max-width:480px) {
+        .card-container {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    @media only screen and (min-width: 320px) and (max-width:499px) {}
+
+    @media only screen and (min-width: 500px) and (max-width:769px) {
+        .card-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media only screen and (min-width: 1201) {}
 </style>

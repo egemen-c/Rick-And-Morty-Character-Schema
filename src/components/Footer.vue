@@ -2,15 +2,7 @@
     <div class="nav">
         <div class="brand">
             <img src="../assets/logo.png" alt="">
-            <span>© 2022  Rick F*ck*ng Sanchez, All rights reserved.</span>
-        </div>
-        <div class="nav-links">
-            <ul>
-                <li><router-link to="/">Home</router-link></li>
-                <li><router-link to="/Characters">Characters</router-link></li>
-                <li><router-link to="/Locations">Locations</router-link></li>
-                <li><a href="https://github.com/egemen-c" target="_blank">Me</a></li>
-            </ul>
+            <span>© 2022 Rick F*ck*ng Sanchez, All rights reserved.</span>
         </div>
     </div>
 </template>
@@ -26,20 +18,21 @@
         flex-direction: row-reverse;
         position: relative;
         bottom: 0px;
-        left: 0px;
-        right: 0px;
     }
-    .brand { 
+
+    .brand {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row-reverse;
     }
-    .brand > img {
+
+    .brand>img {
         width: 4rem;
         height: 4rem;
     }
-    .brand > span {
+
+    .brand>span {
         padding: 7px;
         color: var(--grey);
         font-weight: 600;
@@ -47,25 +40,23 @@
         text-decoration: none;
     }
 
-    .nav .nav-links ul {
-        display: flex;
-        align-items: center;
-        list-style-type: none;
-        justify-content: center;
+
+    @media only screen and (max-width: 481px) {
+        .nav {
+            font-size: 0.4rem;
+        }
     }
 
-    .nav .nav-links ul li a {
-        padding: 7px;
-        color: var(--grey);
-        font-weight: 600;
-        letter-spacing: 0.1rem;
-        text-decoration: none;
-    }
-    a {
-        border-bottom: 1px solid  var(--teal);
+    @media only screen and (max-width: 769px) {
+        .nav {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
 
+        }
     }
-    .nav .nav-links ul li a:hover{
-        color: var(--teal);
-    }
+
+    @media only screen and (min-width: 1201) {}
 </style>
