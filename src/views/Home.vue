@@ -105,19 +105,15 @@
         box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.59);
     }
 
-    @media only screen and (min-width: 320px) and (max-width:480px) {
-        .card-container {
+    @media only screen and (min-width: 320px) and (max-width:499px) {
+        .card-container{
             grid-template-columns: repeat(1, 1fr);
         }
-    }
+     }
 
-    @media only screen and (min-width: 320px) and (max-width:499px) {}
-
-    @media only screen and (min-width: 500px) and (max-width:769px) {
-        .card-container {
+    @media only screen and (min-width: 500px) and (max-width:769px) { 
+        .card-container{
             grid-template-columns: repeat(2, 1fr);
         }
     }
-
-    @media only screen and (min-width: 1201) {}
 </style>

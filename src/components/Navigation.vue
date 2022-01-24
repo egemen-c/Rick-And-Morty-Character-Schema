@@ -123,7 +123,7 @@
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
-        animation: myAnim 1s ease 0s 1 normal forwards;
+        animation: myAnim 0.6s ease 0s 1 normal forwards;
         background: var(--black-800);
 
     }
@@ -175,5 +175,5 @@
         }
     }
 
-    @media only screen and (min-width: 1201) {}
+
 </style>
