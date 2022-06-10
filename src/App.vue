@@ -4,8 +4,7 @@
   <Sassdeneme />
   <router-view>
   </router-view>
-  <span class="spn">
-    <Footer /></span>
+  <Footer />
 </template>
 
 <script>
