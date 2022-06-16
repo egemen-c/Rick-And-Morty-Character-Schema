@@ -1,9 +1,7 @@
 <template>
   <Header />
   <Navigation />
-  <Sassdeneme />
-  <router-view>
-  </router-view>
+  <router-view />
   <Footer />
 </template>
 
